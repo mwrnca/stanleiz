@@ -1,0 +1,52 @@
+/* Main.css */
+.mainscontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: space-around;
+  padding: 1rem;
+  min-width: 100vw;
+  height: 100%;
+  scroll-snap-align: start; /* works with snap on parent */
+  flex-shrink: 0;                 
+}
+
+.name22 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: clamp(3.5rem, 5vh, 4rem);
+}
+
+.sub-title {
+    font-size: clamp(1rem, 3vh, 2rem)
+}
+
+.socials-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.social-links {
+    color: var(--text);
+}
+
+@media (min-width: 600px) {
+  .socials-container {
+    flex-direction: row;
+    width: auto;
+  }
+
+  .social-links {
+    width: auto;
+  }
+}

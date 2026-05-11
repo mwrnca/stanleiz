@@ -1,0 +1,65 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg: #0b0121;
+    --text: #878496;
+    --border: #030101;
+    --accent: #565302;
+    --font-display: "Michroma", sans-serif;
+    --muted: #444;
+    --surface: #111;
+    height: 100%;
+}
+
+input, button, textarea, select {
+  font-family: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-display);
+}
+
+/* html, body {
+  height: 70%;
+} */
+
+.components-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.scroll-container {
+  display: flex;
+  flex-direction: row;        /* side by side */
+  overflow-x: auto;           /* horizontal scroll */
+  overflow-y: hidden;
+  height: 100vh;
+  padding-top: 5rem;          /* space for the fixed navbar */
+  scroll-snap-type: x mandatory; /* snaps cleanly between sections */
+  -webkit-overflow-scrolling: touch;
+}
+
+/* hide scrollbar but keep functionality */
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+.scroll-container {
+  scrollbar-width: none;
+}
+
+.nav-app {
+  position: fixed;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
