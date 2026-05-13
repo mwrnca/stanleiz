@@ -16,18 +16,18 @@ function Nav() {
     if (!scrollContainer) return
 
     const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActive(entry.target.id)
-          }
-        })
-      },
-      {
-        root: scrollContainer,
-        threshold: 0.5,
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        setActive(entry.target.id)
       }
-    )
+    })
+  },
+  {
+    root: scrollContainer,
+    threshold: 0.4,  // lower from 0.5
+  }
+)
 
     navItems.forEach(({ id }) => {
       const section = document.getElementById(id)
@@ -57,7 +57,7 @@ function Nav() {
     <section className="container">
       <div className="nav-logo">
         <span className="logo-text">STANLEIZ</span>
-        <span className="logo-sub">CONSUMABLES</span>
+        <span className="logo-sub">PREMIUM GRAPES AND FRESH FRUITS</span>
       </div>
 
       <button

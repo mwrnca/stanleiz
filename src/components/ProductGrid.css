@@ -7,6 +7,16 @@
   padding: 2rem;
   box-sizing: border-box;
   margin: 1rem auto;
+
+  &::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide for Firefox */
+    scrollbar-width: none;
+
+    /* Hide for Internet Explorer and older Edge */
+    -ms-overflow-style: none;
 }
 
 .cards {

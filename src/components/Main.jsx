@@ -5,7 +5,7 @@ function Main () {
     <section id="home" className="mainscontainer">
     <div className="name22">
         <span className="title">STANLEIZ</span>
-        <span className="sub-title">CONSUMABLES</span>
+        <span className="sub-title">PREMIUM GRAPES & FRESH FRUITS</span>
     </div>
      <div className="socials-container">
         <a href="#" target="_blank" className="social-links">INSTAGRAM</a>

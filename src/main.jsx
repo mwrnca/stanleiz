@@ -7,7 +7,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <section className='master'>
           <App />
-
     </section>
   </StrictMode>,
 )
