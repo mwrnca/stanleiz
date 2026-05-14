@@ -11,7 +11,7 @@ function ProductCard({ title, description, stock }) {
       </div>
 
       <div className="cart-btn">
-        <a className="card-words">ADD TO CART</a>
+        <a href="https://www.instagram.com/centralvalleyvineyard?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="card-words">contact</a>
       </div>
  
     </div>

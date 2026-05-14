@@ -17,7 +17,7 @@ export default function About() {
             <br />
             Kenyan Soil
           </h1>
-          <p className="est">Premium Grapes &amp; Fresh Fruits</p>
+          <p className="est">GRAPE ENTHUSIAST</p>
           <hr  />
           <p className="est">
             From our farms across the Great Rift Valley to tables near and far — we

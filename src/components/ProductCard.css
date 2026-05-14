@@ -80,4 +80,6 @@
   flex-wrap: wrap;
 }
 
-
+.card-words {
+  color: rgb(70, 11, 186);
+}

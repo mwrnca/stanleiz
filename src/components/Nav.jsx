@@ -57,7 +57,7 @@ function Nav() {
     <section className="container">
       <div className="nav-logo">
         <span className="logo-text">STANLEIZ</span>
-        <span className="logo-sub">PREMIUM GRAPES AND FRESH FRUITS</span>
+        <span className="logo-sub">GRAPE ENTHUSIAST</span>
       </div>
 
       <button
